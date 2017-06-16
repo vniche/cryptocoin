@@ -1,11 +1,11 @@
 {
   "name": "cryptocoin",
   "description": "Cryptocoin App prototype",
-  "author": "Vinicius Niche Correa <vniche@protonmail.com",
+  "author": "Vinicius Niche Correa <viniciusnichecorrea@gmail.com>",
   "version": "0.0.1-alpha",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agencia-impulso/cryptocoin"
+    "url": "https://github.com/vniche/cryptocoin.git"
   },
   "scripts": {
     "start": "brunch watch --server",
