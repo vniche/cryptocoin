@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - v7.10.0
+script: 
+  - 'npm install && npm run build'
+deploy:
+  provider: pages
+  local_dir: public
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: viniciusnichecorrea@gmail.com
+  on:
+    branch: master
+branches:
+  except:
+    - gh-pages

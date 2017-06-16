@@ -1,0 +1,33 @@
+{
+  "name": "cryptocoin",
+  "description": "Cryptocoin App prototype",
+  "author": "Vinicius Niche Correa <vniche@protonmail.com",
+  "version": "0.0.1-alpha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agencia-impulso/cryptocoin"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "inferno": "^1.5.6",
+    "inferno-component": "^1.5.6"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-plugin-inferno": "^3.1.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-latest": "^6.24.0",
+    "brunch": "^2.10.9",
+    "clean-css-brunch": "^2.10.0",
+    "css-brunch": "^2.10.0",
+    "javascript-brunch": "^2.10.0",
+    "jquery": "^2.1.3",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
